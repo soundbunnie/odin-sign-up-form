@@ -11,7 +11,6 @@
 .content{
     display: flex;
     flex-flow:row wrap;
-    gap: 50px;
     align-items: stretch;
 }
 
@@ -29,7 +28,7 @@
 .odin-logo{
     background-color: rgba(0, 0, 2, 0.5);
     margin-top: 22vh;
-    height: 15vh;
+    height: 16vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,6 +53,43 @@
 
 #form-section{
     display: flex;
+    gap: 60px;
     flex-direction: column;
+    justify-content: center;
     flex: 1;
 }
+
+#hero-text{
+    margin-left: 70px;
+}
+
+#sign-up-form{
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    height: 33%;
+    padding-left: 70px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row input {
+background-color: #FFFFFF;
+border: 1px solid #D6D9DC;
+border-radius: 3px;
+padding: 7px;
+font-size: 14px;
+}
+
+  
