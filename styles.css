@@ -6,6 +6,7 @@
 .content, html, body{
     height: 100%;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .content{
@@ -52,6 +53,7 @@
 }
 
 #form-section{
+    background-color: #FAF9F6;
     display: flex;
     gap: 60px;
     flex-direction: column;
@@ -60,12 +62,19 @@
 }
 
 #hero-text{
+    font-weight:bold;
     margin-left: 70px;
 }
 
+#hero-text p{
+    font-size: 24px;    
+    width: 60%;
+}
+
 #sign-up-form{
-    background-color: #F6F7F8;
+    background-color: white;
     border: 1px solid #D6D9DC;
+    box-shadow: 0px 5px 7px rgba(128, 128, 128, 0.4);
     height: 33%;
     padding-left: 70px;
 }
@@ -92,4 +101,32 @@ padding: 7px;
 font-size: 14px;
 }
 
-  
+input:focus{
+    outline: 1px solid #005A92;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.4);
+  }
+
+.form-row label {
+    text-transform: uppercase;
+}
+
+#form-submit-area{
+    padding-left: 70px;
+}
+
+#form-submit-area button{
+    background-color: #667a44;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 14vw;
+    height: 6vh;
+    font-size: 22px;
+    text-align: center;
+}
+
+#form-submit-area a{
+    color: #123524;
+    text-decoration: none;
+    font-weight: bold;
+}
