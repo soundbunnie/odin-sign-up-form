@@ -1,3 +1,59 @@
+@font-face {
+    font-family: Norse;
+    src: url(sources/Norse-Bold.otf);
+}
+
+.content, html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    flex-flow:row wrap;
+    gap: 50px;
+    align-items: stretch;
+}
+
 #left-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-image: url(sources/background-image.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 33%;
+}
+.odin-logo{
+    background-color: rgba(0, 0, 2, 0.5);
+    margin-top: 22vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.odin-logo h1{
+    font-family: Norse;
+    font-size: 96px;
+    color: white;
+}
+
+.photo-credit{
+    color: white;
+}
+
+.odin-logo img{
+    width: 5vw;
+    height: auto;
+}
+
+#form-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
