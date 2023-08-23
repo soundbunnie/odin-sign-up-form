@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
     <title>Sign Up Form</title>
 </head>
 <body>
@@ -45,7 +46,7 @@
                         </div>
                     </div>
                     <div class="form-row">
-                        <div class="input-field">
+                        <div class="input-field" id="password-input">
                             <label for="user-password">Password</label>
                             <input type="password" id="user-password" name="user-password">
                         </div>
@@ -56,7 +57,7 @@
                     </div>
                 </form>
                 <div id="form-submit-area">
-                    <button type="submit">Create Account</button>
+                    <button type="submit" onclick="checkPasswords()">Create Account</button>
 
                     <p>Already have an account? <a href="url">Log in</a></p>
                 </div>
