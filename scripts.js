@@ -6,8 +6,8 @@ function checkPasswords(){
         password.style.removeProperty('outline');
         confirmPassword.style.removeProperty('outline');
 
-        if (document.getElementById('password-error-message')){
-            document.getElementById('password-error-message').remove();
+            if (document.getElementById('password-error-message')){
+                document.getElementById('password-error-message').remove();
         }
     }
     else if (password.value == confirmPassword.value){
@@ -26,7 +26,7 @@ function checkPasswords(){
 
         let passErrorMessage = document.createElement("p");
         let passErrorText = document.createTextNode("* Passwords do not match");
-        passErrorMessage.style.color = "red";
+        passErrorMessage.style.color = "#8B0000";
         passErrorMessage.style.fontSize = "12px";
         passErrorMessage.append(passErrorText);
         passErrorMessage.id = "password-error-message";
