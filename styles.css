@@ -129,6 +129,15 @@ input:focus{
     text-align: center;
 }
 
+#form-submit-area button:hover{
+    background-color: #3c4a31;
+    cursor:pointer;
+}
+
+#form-submit-area button:active{
+    transform: translateY(4px);
+}
+
 #form-submit-area a{
     color: #596D48;
     text-decoration: none;
